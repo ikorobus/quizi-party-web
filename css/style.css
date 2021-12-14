@@ -1,0 +1,228 @@
+ @font-face { font-family: Wotfard; src: url('./fonts/Wotfard-Regular.otf'); } 
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing:border-box;
+  
+
+}
+body{
+   font-family: 'Wotfard', sans-serif; 
+   background-color: rgba(245, 240, 237);
+   
+}
+
+/*PARTE 1_6*/
+.primera_seccion::before{content:'';
+	position: absolute;
+    top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0,0,0,0.1);}
+.fondo1 img{
+    width: 100%;
+    
+}
+.fondo1{width: 100%;
+}
+
+.logo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 1.5%;
+    width: 13%;
+}
+.logo img{
+    width: 100%;
+}
+
+.cartel{
+    position:absolute;
+    top: 20%;
+    left: 35%;
+    color: #EDEDED;  
+	background-color: rgba(20,20,20,0.5);
+}
+
+.parte1_cartel{
+    text-align: center;
+    font-size: 5vw;
+    margin: 5% 20%; 
+}
+.parte2_cartel{
+    font-size: 1.8vw;
+    margin: 5% 30%;
+}
+.minicaja_1{
+    border:solid;
+    border-bottom-color: white;
+    position: absolute;   
+    width: 10%;   
+    margin-left:25%;
+}
+/*PARTE 2_6*/
+.caja_p_1{
+    background: rgb(210, 57, 60);
+    color: rgb(222, 214, 191);
+    width: 50%;
+    float:left;
+    padding: 8%;
+      
+}
+.caja_p_2{
+    background: rgb(222, 214, 191);
+    color: rgb(210, 57, 60);
+    width: 50%;
+    float:left;
+    padding: 8%;
+    
+}
+.caja_principal2{
+    width: 100%;
+
+}
+
+.caja_pp_1, .caja_pp_2{
+    font-size: 2vw;
+    font-weight: bold;
+    text-align: center;
+    
+}
+.caja_ppp1, .caja_ppp2{
+    font-size: 1.7vw;
+    margin-top: 5%;
+    
+}
+/*PARTE 3_6*/
+.vente_a_jugar img{
+    width: 100%;
+}
+
+.vente{
+	background: red;
+    margin-top: -50%;
+    width: 100%;
+    text-align: center;
+    color:white;
+    margin-bottom:15%;
+}
+.minicaja_2{
+    margin-top:1%;
+    margin-left:45%;
+    position: absolute;
+    border: solid;
+    border-bottom-color: white;
+    width: 10%;
+}
+.titulo_vente1{
+    font-size: 5vw;
+    background-color: rgba(20,20,20,0.5);
+	color: #D2393C;
+}
+.titulo_vente2{
+    font-size: 1.7vw;
+    margin-top:2.6%;
+    margin-left: 10%;
+    margin-right: 10%;
+	background-color: rgba(20,20,20,0.5);
+
+
+}
+.boton_productos{
+    border: solid;
+    border-color: white;
+    color: white;
+    text-align: center;
+    margin:2% 35%;
+    padding-top:2%; 
+    padding-bottom: 2%;
+    font-size: 2vw;
+	background-color: rgba(20,20,20,0.5);
+
+}
+/*PARTE 4_6*/
+.contenedor1{
+    margin-top: 5%;
+   width: 49%;
+    padding: 1%;float:left; background-color: rgb(245, 240, 237);
+}
+.contenedor2{
+	margin-top: 5%;
+    width: 49%;padding: 1%;float:left;background-color: rgb(245, 240, 237);
+}
+.contenedor3{
+    width:49%;padding: 1%;float:left;background-color: rgb(245, 240, 237);
+    
+}
+.contenedor4{
+    width:49%;padding: 1%;float:left;background-color: rgb(245, 240, 237);
+}
+.icono img {
+    width: 100%;
+}
+.icono{
+   
+    width: 30%; float: left;
+}
+.codigoqr{
+    width: 10%;
+}
+.titulo{
+    float: left;
+    font-weight: bold;
+    font-size: 1.6vw;
+     width: 70%;
+    text-align: center;
+    
+    
+}
+.contenido{
+    width: 70%;
+    float: left;
+    font-size: 1.2vw;
+    text-align: center;
+}
+/*PARTE 5_6*/
+.datos_contacta{
+    text-align: center;
+
+}
+.caja1, .caja2{
+    width: 50%;
+    float: left;  
+    
+}
+.caja1{
+    background: rgb(222, 214, 191);
+    color: rgb(210, 57, 60);padding: 8%;
+   
+}
+.caja2{
+    background: rgb(210, 57, 60);
+    color: rgb(222, 214, 191);
+    padding: 9.1%;
+}
+.contacta_1, .estamos_1, .correo, .donde_estamos{
+    font-weight: bold;
+    
+}
+
+.contacta_1, .estamos_1{
+    font-size: 2vw;
+   
+}
+.contacta_2, .estamos_2{
+    font-size: 1.5vw;
+   margin-top: 3%; margin-bottom: 4%;
+}
+
+
+
+
+/*PARTE 6_6*/
+.footer{
+    background-color:rgb(37,29,27);
+    padding: 5%;
+}
